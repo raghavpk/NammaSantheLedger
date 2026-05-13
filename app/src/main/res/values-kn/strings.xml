@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಮ್ಮ ಸಂತೆ ಲೆಡ್ಜರ್</string>
+    <string name="app_tagline">ಸ್ಮಾರ್ಟ್ ವ್ಯಾಪಾರಿಗಳಿಗೆ ಡಿಜಿಟಲ್ ಖಾತಾ</string>
+    <string name="namma_santhe">ನಮ್ಮ ಸಂತೆ</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">ಮನೆ</string>
+    <string name="nav_customers">ಗ್ರಾಹಕರು</string>
+    <string name="nav_reports">ವರದಿಗಳು</string>
+
+    <!-- Home Screen -->
+    <string name="namaskara">ನಮಸ್ಕಾರ, %s!</string>
+    <string name="total_outstanding">ಒಟ್ಟು ಬಾಕಿ</string>
+    <string name="customers_count">%d ಗ್ರಾಹಕರು</string>
+    <string name="today_summary">ಇಂದಿನ ಸಾರಾಂಶ</string>
+    <string name="quick_actions">ತ್ವರಿತ ಕ್ರಿಯೆಗಳು</string>
+    <string name="sales">ಮಾರಾಟ</string>
+    <string name="credit">ಉದರಿ</string>
+    <string name="received">ಸ್ವೀಕರಿಸಿದ</string>
+    <string name="view_manage">ನೋಡಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ</string>
+    <string name="business_overview">ವ್ಯಾಪಾರ ಅವಲೋಕನ</string>
+
+    <!-- Customer -->
+    <string name="customers">ಗ್ರಾಹಕರು</string>
+    <string name="add_customer">ಗ್ರಾಹಕರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="search_hint">ಗ್ರಾಹಕರ ಹೆಸರಿನಿಂದ ಹುಡುಕಿ\u2026</string>
+    <string name="no_customers">ಇನ್ನೂ ಗ್ರಾಹಕರಿಲ್ಲ</string>
+    <string name="no_customers_found">ಗ್ರಾಹಕರು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="customer_name">ಗ್ರಾಹಕರ ಹೆಸರು *</string>
+    <string name="name_required">ಹೆಸರು ಅಗತ್ಯವಿದೆ</string>
+    <string name="phone_number">ಫೋನ್ ನಂಬರ್</string>
+    <string name="enter_10_digit">10 ಅಂಕಿಯ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="for_whatsapp">ವಾಟ್ಸ್ಯಾಪ್ ಜ್ಞಾಪನೆಗಳಿಗಾಗಿ</string>
+    <string name="save_customer">ಗ್ರಾಹಕರನ್ನು ಉಳಿಸಿ</string>
+    <string name="delete_customer">ಗ್ರಾಹಕರನ್ನು ಅಳಿಸಿ</string>
+
+    <!-- Transaction -->
+    <string name="add_entry">ನಮೂದು ಸೇರಿಸಿ</string>
+    <string name="credit_udari">ಉದರಿ</string>
+    <string name="payment_received">ಪಾವತಿ ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="add_credit">ಉದರಿ ಸೇರಿಸಿ</string>
+    <string name="record_payment">ಪಾವತಿ ದಾಖಲಿಸಿ</string>
+    <string name="amount">ಮೊತ್ತ</string>
+    <string name="enter_amount">ಮೊತ್ತ ನಮೂದಿಸಿ</string>
+    <string name="note_optional">ಟಿಪ್ಪಣಿ (ಐಚ್ಛಿಕ)</string>
+    <string name="transactions">ವಹಿವಾಟುಗಳು</string>
+    <string name="no_transactions">ಈ ಅವಧಿಯಲ್ಲಿ ವಹಿವಾಟುಗಳಿಲ್ಲ</string>
+
+    <!-- Business Overview -->
+    <string name="daily">ದೈನಿಕ</string>
+    <string name="weekly">ವಾರಿಕ</string>
+    <string name="monthly">ಮಾಸಿಕ</string>
+    <string name="yearly">ವಾರ್ಷಿಕ</string>
+    <string name="this_week">ಈ ವಾರ</string>
+    <string name="total_sales">ಒಟ್ಟು ಮಾರಾಟ</string>
+    <string name="credit_given">ನೀಡಿದ ಉದರಿ</string>
+    <string name="payments_in">ಬಂದ ಪಾವತಿಗಳು</string>
+    <string name="net_cash">ನಿವ್ವಳ ಹಣ</string>
+
+    <!-- Auth -->
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="send_otp">OTP ಕಳುಹಿಸಿ</string>
+    <string name="password">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="forgot_password">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ?</string>
+    <string name="new_vendor">ಹೊಸ ವ್ಯಾಪಾರಿ?</string>
+    <string name="create_account">ಖಾತೆ ತೆರೆಯಿರಿ</string>
+    <string name="register_vendor">ಸಂತೆ ವ್ಯಾಪಾರಿಯಾಗಿ ನೋಂದಾಯಿಸಿ</string>
+    <string name="vendor_details">ವ್ಯಾಪಾರಿ ವಿವರಗಳು</string>
+    <string name="your_name">ನಿಮ್ಮ ಹೆಸರು *</string>
+    <string name="phone_number_star">ಫೋನ್ ನಂಬರ್ *</string>
+    <string name="password_star">ಪಾಸ್‌ವರ್ಡ್ *</string>
+    <string name="password_hint">ಕನಿಷ್ಠ 4 ಅಕ್ಷರ, 1 ದೊಡ್ಡ, 1 ಸಣ್ಣ, 1 ಸಂಖ್ಯೆ, 1 ವಿಶೇಷ</string>
+    <string name="shop_business_name">ಅಂಗಡಿ / ವ್ಯಾಪಾರ ಹೆಸರು</string>
+    <string name="market_santhe_name">ಮಾರುಕಟ್ಟೆ / ಸಂತೆ ಹೆಸರು</string>
+    <string name="already_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?</string>
+    <string name="enter_valid_phone">ಮಾನ್ಯ 10 ಅಂಕಿಯ ಫೋನ್ ನಂಬರ್ ನಮೂದಿಸಿ</string>
+    <string name="enter_password">ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="no_account_found">ಈ ನಂಬರ್‌ನಲ್ಲಿ ಯಾವುದೇ ಖಾತೆ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="incorrect_password">ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="account_exists">ಈ ನಂಬರ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಖಾತೆ ಇದೆ</string>
+
+    <!-- Profile -->
+    <string name="my_profile">ನನ್ನ ಪ್ರೊಫೈಲ್</string>
+    <string name="profile_details">ಪ್ರೊಫೈಲ್ ವಿವರಗಳು</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="shop_name">ಅಂಗಡಿ ಹೆಸರು</string>
+    <string name="phone">ಫೋನ್</string>
+    <string name="market">ಮಾರುಕಟ್ಟೆ</string>
+    <string name="edit">ಬದಲಿಸಿ</string>
+    <string name="save">ಉಳಿಸಿ</string>
+    <string name="profile_updated">ಪ್ರೊಫೈಲ್ ನವೀಕರಿಸಲಾಗಿದೆ!</string>
+    <string name="phone_cannot_change">ಫೋನ್ ನಂಬರ್ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="change_password">ಪಾಸ್‌ವರ್ಡ್ ಬದಲಿಸಿ</string>
+    <string name="new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="confirm_password">ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="update_password">ಪಾಸ್‌ವರ್ಡ್ ನವೀಕರಿಸಿ</string>
+    <string name="password_changed">ಪಾಸ್‌ವರ್ಡ್ ಯಶಸ್ವಿಯಾಗಿ ಬದಲಾಯಿಸಲಾಗಿದೆ!</string>
+    <string name="logout">ಲಾಗ್‌ಔಟ್</string>
+    <string name="logout_confirm">ಲಾಗ್‌ಔಟ್?</string>
+    <string name="logout_message">ನೀವು ಲಾಗ್‌ಔಟ್ ಮಾಡಲು ಖಚಿತವಾಗಿದ್ದೀರಾ?</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="back">ಹಿಂದೆ</string>
+
+    <!-- Language -->
+    <string name="language">ಭಾಷೆ</string>
+    <string name="select_language">ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="language_changed">ಭಾಷೆ ಬದಲಾಗಿದೆ!</string>
+
+    <!-- WhatsApp -->
+    <string name="whatsapp_reminder">ವಾಟ್ಸ್ಯಾಪ್ ಜ್ಞಾಪನೆ ಕಳುಹಿಸಿ</string>
+
+    <!-- General -->
+    <string name="due">ಬಾಕಿ</string>
+    <string name="settled">ಚುಕ್ತಾ</string>
+</resources>

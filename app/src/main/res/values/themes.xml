@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for splash -->
+    <style name="Theme.NammaSantheLedger" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#E65100</item>
+        <item name="android:navigationBarColor">#E65100</item>
+        <item name="android:windowBackground">#E65100</item>
+    </style>
+
+    <!-- Splash screen theme - shows orange bg while Compose loads -->
+    <style name="Theme.NammaSantheLedger.Splash" parent="Theme.NammaSantheLedger">
+        <item name="android:windowBackground">#E65100</item>
+        <item name="android:statusBarColor">#E65100</item>
+        <item name="android:navigationBarColor">#E65100</item>
+    </style>
+</resources>

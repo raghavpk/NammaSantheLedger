@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95707374716",
+    "project_id": "santheledger-a9692c9e",
+    "storage_bucket": "santheledger-a9692c9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95707374716:android:b918b5e5927bb9774f95f9",
+        "android_client_info": {
+          "package_name": "com.namma.santheledger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg2DTQlgLG6k2kS9K-OAJIwRwWJlmpm3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

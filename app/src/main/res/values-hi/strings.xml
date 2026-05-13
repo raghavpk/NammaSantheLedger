@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">नम्मा संथे लेजर</string>
+    <string name="app_tagline">स्मार्ट विक्रेताओं के लिए डिजिटल खाता</string>
+    <string name="namma_santhe">नम्मा संथे</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_customers">ग्राहक</string>
+    <string name="nav_reports">रिपोर्ट</string>
+
+    <!-- Home Screen -->
+    <string name="namaskara">नमस्कार, %s!</string>
+    <string name="total_outstanding">कुल बकाया</string>
+    <string name="customers_count">%d ग्राहक</string>
+    <string name="today_summary">आज का सारांश</string>
+    <string name="quick_actions">त्वरित कार्य</string>
+    <string name="sales">बिक्री</string>
+    <string name="credit">उधार</string>
+    <string name="received">प्राप्त</string>
+    <string name="view_manage">देखें और प्रबंधित करें</string>
+    <string name="business_overview">व्यापार अवलोकन</string>
+
+    <!-- Customer -->
+    <string name="customers">ग्राहक</string>
+    <string name="add_customer">ग्राहक जोड़ें</string>
+    <string name="search_hint">ग्राहक के नाम से खोजें\u2026</string>
+    <string name="no_customers">अभी तक कोई ग्राहक नहीं</string>
+    <string name="no_customers_found">कोई ग्राहक नहीं मिला</string>
+    <string name="customer_name">ग्राहक का नाम *</string>
+    <string name="name_required">नाम आवश्यक है</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="enter_10_digit">10 अंकों का नंबर दर्ज करें</string>
+    <string name="for_whatsapp">WhatsApp रिमाइंडर के लिए</string>
+    <string name="save_customer">ग्राहक सहेजें</string>
+    <string name="delete_customer">ग्राहक हटाएं</string>
+
+    <!-- Transaction -->
+    <string name="add_entry">प्रविष्टि जोड़ें</string>
+    <string name="credit_udari">उधार</string>
+    <string name="payment_received">भुगतान प्राप्त</string>
+    <string name="add_credit">उधार जोड़ें</string>
+    <string name="record_payment">भुगतान दर्ज करें</string>
+    <string name="amount">राशि</string>
+    <string name="enter_amount">राशि दर्ज करें</string>
+    <string name="note_optional">नोट (वैकल्पिक)</string>
+    <string name="transactions">लेन-देन</string>
+    <string name="no_transactions">इस अवधि में कोई लेन-देन नहीं</string>
+
+    <!-- Business Overview -->
+    <string name="daily">दैनिक</string>
+    <string name="weekly">साप्ताहिक</string>
+    <string name="monthly">मासिक</string>
+    <string name="yearly">वार्षिक</string>
+    <string name="this_week">इस सप्ताह</string>
+    <string name="total_sales">कुल बिक्री</string>
+    <string name="credit_given">दिया गया उधार</string>
+    <string name="payments_in">प्राप्त भुगतान</string>
+    <string name="net_cash">शुद्ध नकद</string>
+
+    <!-- Auth -->
+    <string name="login">लॉगिन</string>
+    <string name="send_otp">OTP भेजें</string>
+    <string name="password">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="new_vendor">नए विक्रेता?</string>
+    <string name="create_account">खाता बनाएं</string>
+    <string name="register_vendor">संथे विक्रेता के रूप में पंजीकरण करें</string>
+    <string name="vendor_details">विक्रेता विवरण</string>
+    <string name="your_name">आपका नाम *</string>
+    <string name="phone_number_star">फ़ोन नंबर *</string>
+    <string name="password_star">पासवर्ड *</string>
+    <string name="password_hint">कम से कम 4 अक्षर, 1 बड़ा, 1 छोटा, 1 अंक, 1 विशेष</string>
+    <string name="shop_business_name">दुकान / व्यापार का नाम</string>
+    <string name="market_santhe_name">बाज़ार / संथे का नाम</string>
+    <string name="already_have_account">पहले से खाता है?</string>
+    <string name="enter_valid_phone">मान्य 10 अंकों का फ़ोन नंबर दर्ज करें</string>
+    <string name="enter_password">अपना पासवर्ड दर्ज करें</string>
+    <string name="no_account_found">इस नंबर से कोई खाता नहीं मिला</string>
+    <string name="incorrect_password">गलत पासवर्ड</string>
+    <string name="account_exists">इस नंबर से पहले से खाता मौजूद है</string>
+
+    <!-- Profile -->
+    <string name="my_profile">मेरी प्रोफ़ाइल</string>
+    <string name="profile_details">प्रोफ़ाइल विवरण</string>
+    <string name="name">नाम</string>
+    <string name="shop_name">दुकान का नाम</string>
+    <string name="phone">फ़ोन</string>
+    <string name="market">बाज़ार</string>
+    <string name="edit">संपादित करें</string>
+    <string name="save">सहेजें</string>
+    <string name="profile_updated">प्रोफ़ाइल अपडेट हो गई!</string>
+    <string name="phone_cannot_change">फ़ोन नंबर बदला नहीं जा सकता</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="update_password">पासवर्ड अपडेट करें</string>
+    <string name="password_changed">पासवर्ड सफलतापूर्वक बदल दिया गया!</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="logout_confirm">लॉगआउट?</string>
+    <string name="logout_message">क्या आप लॉगआउट करना चाहते हैं?</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="back">वापस</string>
+
+    <!-- Language -->
+    <string name="language">भाषा</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="language_changed">भाषा बदल गई!</string>
+
+    <!-- WhatsApp -->
+    <string name="whatsapp_reminder">WhatsApp रिमाइंडर भेजें</string>
+
+    <!-- General -->
+    <string name="due">बकाया</string>
+    <string name="settled">चुकता</string>
+</resources>

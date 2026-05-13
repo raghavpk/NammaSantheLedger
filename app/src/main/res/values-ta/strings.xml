@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">நம்ம சந்தே லெட்ஜர்</string>
+    <string name="app_tagline">புத்திசாலி விற்பனையாளர்களுக்கான டிஜிட்டல் கணக்கு</string>
+    <string name="namma_santhe">நம்ம சந்தே</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">முகப்பு</string>
+    <string name="nav_customers">வாடிக்கையாளர்கள்</string>
+    <string name="nav_reports">அறிக்கைகள்</string>
+
+    <!-- Home Screen -->
+    <string name="namaskara">வணக்கம், %s!</string>
+    <string name="total_outstanding">மொத்த நிலுவை</string>
+    <string name="customers_count">%d வாடிக்கையாளர்கள்</string>
+    <string name="today_summary">இன்றைய சுருக்கம்</string>
+    <string name="quick_actions">விரைவு செயல்கள்</string>
+    <string name="sales">விற்பனை</string>
+    <string name="credit">கடன்</string>
+    <string name="received">பெறப்பட்டது</string>
+    <string name="view_manage">பார்க்க &amp; நிர்வகிக்க</string>
+    <string name="business_overview">வணிக மேலோட்டம்</string>
+
+    <!-- Customer -->
+    <string name="customers">வாடிக்கையாளர்கள்</string>
+    <string name="add_customer">வாடிக்கையாளர் சேர்</string>
+    <string name="search_hint">வாடிக்கையாளர் பெயரில் தேடு\u2026</string>
+    <string name="no_customers">இன்னும் வாடிக்கையாளர்கள் இல்லை</string>
+    <string name="no_customers_found">வாடிக்கையாளர்கள் கிடைக்கவில்லை</string>
+    <string name="customer_name">வாடிக்கையாளர் பெயர் *</string>
+    <string name="name_required">பெயர் தேவை</string>
+    <string name="phone_number">தொலைபேசி எண்</string>
+    <string name="enter_10_digit">10 இலக்க எண்ணை உள்ளிடவும்</string>
+    <string name="for_whatsapp">WhatsApp நினைவூட்டல்களுக்கு</string>
+    <string name="save_customer">வாடிக்கையாளர் சேமி</string>
+    <string name="delete_customer">வாடிக்கையாளர் நீக்கு</string>
+
+    <!-- Transaction -->
+    <string name="add_entry">பதிவு சேர்</string>
+    <string name="credit_udari">கடன்</string>
+    <string name="payment_received">பணம் பெறப்பட்டது</string>
+    <string name="add_credit">கடன் சேர்</string>
+    <string name="record_payment">பணம் பதிவு செய்</string>
+    <string name="amount">தொகை</string>
+    <string name="enter_amount">தொகையை உள்ளிடவும்</string>
+    <string name="note_optional">குறிப்பு (விருப்பம்)</string>
+    <string name="transactions">பரிவர்த்தனைகள்</string>
+    <string name="no_transactions">இந்த காலத்தில் பரிவர்த்தனைகள் இல்லை</string>
+
+    <!-- Business Overview -->
+    <string name="daily">தினசரி</string>
+    <string name="weekly">வாரந்திர</string>
+    <string name="monthly">மாதாந்திர</string>
+    <string name="yearly">ஆண்டு</string>
+    <string name="this_week">இந்த வாரம்</string>
+    <string name="total_sales">மொத்த விற்பனை</string>
+    <string name="credit_given">கொடுத்த கடன்</string>
+    <string name="payments_in">வந்த பணம்</string>
+    <string name="net_cash">நிகர பணம்</string>
+
+    <!-- Auth -->
+    <string name="login">உள்நுழை</string>
+    <string name="send_otp">OTP அனுப்பு</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="forgot_password">கடவுச்சொல் மறந்துவிட்டதா?</string>
+    <string name="new_vendor">புதிய விற்பனையாளர்?</string>
+    <string name="create_account">கணக்கு உருவாக்கு</string>
+    <string name="register_vendor">சந்தே விற்பனையாளராக பதிவு செய்</string>
+    <string name="vendor_details">விற்பனையாளர் விவரங்கள்</string>
+    <string name="your_name">உங்கள் பெயர் *</string>
+    <string name="phone_number_star">தொலைபேசி எண் *</string>
+    <string name="password_star">கடவுச்சொல் *</string>
+    <string name="password_hint">குறைந்தது 4 எழுத்து, 1 பெரிய, 1 சிறிய, 1 எண், 1 சிறப்பு</string>
+    <string name="shop_business_name">கடை / வணிக பெயர்</string>
+    <string name="market_santhe_name">சந்தை / சந்தே பெயர்</string>
+    <string name="already_have_account">ஏற்கனவே கணக்கு உள்ளதா?</string>
+    <string name="enter_valid_phone">சரியான 10 இலக்க எண்ணை உள்ளிடவும்</string>
+    <string name="enter_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="no_account_found">இந்த எண்ணில் கணக்கு இல்லை</string>
+    <string name="incorrect_password">தவறான கடவுச்சொல்</string>
+    <string name="account_exists">இந்த எண்ணில் ஏற்கனவே கணக்கு உள்ளது</string>
+
+    <!-- Profile -->
+    <string name="my_profile">என் சுயவிவரம்</string>
+    <string name="profile_details">சுயவிவர விவரங்கள்</string>
+    <string name="name">பெயர்</string>
+    <string name="shop_name">கடை பெயர்</string>
+    <string name="phone">தொலைபேசி</string>
+    <string name="market">சந்தை</string>
+    <string name="edit">திருத்து</string>
+    <string name="save">சேமி</string>
+    <string name="profile_updated">சுயவிவரம் புதுப்பிக்கப்பட்டது!</string>
+    <string name="phone_cannot_change">தொலைபேசி எண் மாற்ற முடியாது</string>
+    <string name="change_password">கடவுச்சொல் மாற்று</string>
+    <string name="new_password">புதிய கடவுச்சொல்</string>
+    <string name="confirm_password">கடவுச்சொல் உறுதிப்படுத்து</string>
+    <string name="update_password">கடவுச்சொல் புதுப்பி</string>
+    <string name="password_changed">கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!</string>
+    <string name="logout">வெளியேறு</string>
+    <string name="logout_confirm">வெளியேறவா?</string>
+    <string name="logout_message">நீங்கள் வெளியேற விரும்புகிறீர்களா?</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="back">பின்செல்</string>
+
+    <!-- Language -->
+    <string name="language">மொழி</string>
+    <string name="select_language">மொழி தேர்வு செய்</string>
+    <string name="language_changed">மொழி மாற்றப்பட்டது!</string>
+
+    <!-- WhatsApp -->
+    <string name="whatsapp_reminder">WhatsApp நினைவூட்டல் அனுப்பு</string>
+
+    <!-- General -->
+    <string name="due">நிலுவை</string>
+    <string name="settled">தீர்ந்தது</string>
+</resources>

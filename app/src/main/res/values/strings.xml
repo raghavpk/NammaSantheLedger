@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma Santhe Ledger</string>
+    <string name="app_tagline">Digital Khata for Smart Vendors</string>
+    <string name="namma_santhe">Namma Santhe</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_reports">Reports</string>
+
+    <!-- Home Screen -->
+    <string name="namaskara">Namaskara, %s!</string>
+    <string name="total_outstanding">Total Outstanding</string>
+    <string name="customers_count">%d customers</string>
+    <string name="today_summary">Today\'s Summary</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="sales">Sales</string>
+    <string name="credit">Credit</string>
+    <string name="received">Received</string>
+    <string name="view_manage">View &amp; Manage</string>
+    <string name="business_overview">Business Overview</string>
+
+    <!-- Customer -->
+    <string name="customers">Customers</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="search_hint">Search by customer name\u2026</string>
+    <string name="no_customers">No customers yet</string>
+    <string name="no_customers_found">No customers found</string>
+    <string name="customer_name">Customer Name *</string>
+    <string name="name_required">Name is required</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_10_digit">Enter 10-digit number</string>
+    <string name="for_whatsapp">For WhatsApp reminders</string>
+    <string name="save_customer">Save Customer</string>
+    <string name="delete_customer">Delete Customer</string>
+
+    <!-- Transaction -->
+    <string name="add_entry">Add Entry</string>
+    <string name="credit_udari">Credit (Udari)</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="add_credit">Add Credit</string>
+    <string name="record_payment">Record Payment</string>
+    <string name="amount">Amount</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="transactions">Transactions</string>
+    <string name="no_transactions">No transactions in this period</string>
+
+    <!-- Business Overview / Reports -->
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="this_week">This Week</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="credit_given">Credit Given</string>
+    <string name="payments_in">Payments In</string>
+    <string name="net_cash">Net Cash</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_vendor">New vendor?</string>
+    <string name="create_account">Create Account</string>
+    <string name="register_vendor">Register as a Santhe Vendor</string>
+    <string name="vendor_details">Vendor Details</string>
+    <string name="your_name">Your Name *</string>
+    <string name="phone_number_star">Phone Number *</string>
+    <string name="password_star">Password *</string>
+    <string name="password_hint">Min 4 chars, 1 Upper, 1 Lower, 1 Number, 1 Special</string>
+    <string name="shop_business_name">Shop / Business Name</string>
+    <string name="market_santhe_name">Market / Santhe Name</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="enter_valid_phone">Enter valid 10-digit phone number</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="no_account_found">No account found with this number</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="account_exists">Account already exists with this number</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="name">Name</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="phone">Phone</string>
+    <string name="market">Market</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="profile_updated">Profile updated!</string>
+    <string name="phone_cannot_change">Phone number cannot be changed</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="password_changed">Password changed successfully!</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Logout?</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+
+    <!-- Language -->
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_changed">Language changed! Restart app to apply.</string>
+
+    <!-- WhatsApp -->
+    <string name="whatsapp_reminder">Send WhatsApp Reminder</string>
+
+    <!-- General -->
+    <string name="due">Due</string>
+    <string name="settled">Settled</string>
+</resources>
