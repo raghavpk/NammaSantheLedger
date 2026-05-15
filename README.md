@@ -6,7 +6,7 @@
 
 ## 📱 Screenshots & Features
 
-### 🏠 Home Dashboard
+### 🏠 Home Dashboard  
 - Greeting card with Namaskara hand icon
 - Real-time business summary: Total Outstanding, Today's Sales, Credits, Payments
 - Customer count overview
