@@ -110,11 +110,6 @@ Supported Languages:
 
 ---
 
-## 👥 Customer List
-![Customer List](screenshot/customers.jpeg)
-
----
-
 ## ➕ Add Customer
 ![Add Customer](screenshot/add%20customer.jpeg)
 
