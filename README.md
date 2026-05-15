@@ -19,7 +19,7 @@
 - View individual customer ledger with transaction history
 - Customer balance tracking (credit vs payment)
 - Delete customer with swipe
-
+  
 ### 💰 Transaction Entry
 - Add **Credit (Udari)** or **Payment Received**
 - Custom numeric keypad for quick amount entry  
