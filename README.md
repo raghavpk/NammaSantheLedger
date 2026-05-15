@@ -23,7 +23,7 @@
 ### 💰 Transaction Entry
 - Add **Credit (Udari)** or **Payment Received**
 - Custom numeric keypad for quick amount entry  
-- Optional transaction notes
+- Optional transaction notes  
 - Color-coded: Red for credit, Green for payment
 
 ### 📊 Business Overview (Reports)
