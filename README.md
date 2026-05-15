@@ -1,279 +1,151 @@
 # 🛒 Namma Santhe Ledger
 
-> **A modern, offline-first multilingual digital ledger application designed for Indian street vendors (Santhe vendors) to manage customer credits, payments, udari transactions, reminders, and business reports efficiently.**
+> **A modern offline-first multilingual digital ledger application built for Indian street vendors and small businesses to manage customer credits, payments, and business reports digitally.**
 
 ---
 
 # 📌 Project Overview
 
-Namma Santhe Ledger is a smart digital khata/ledger management application built specifically for small vendors, kirana stores, market sellers, and santhe business owners.
+Namma Santhe Ledger is a smart digital khata/ledger application designed for local vendors, kirana stores, and santhe business owners.
 
-Traditional paper-based udari systems are difficult to manage, error-prone, and lack proper reporting. This application digitizes the complete ledger workflow while keeping the app simple and accessible for local vendors.
+The app helps vendors replace traditional paper-based udari systems with a secure and easy-to-use digital solution.
 
-The app supports:
+The application supports:
 - Customer management
 - Credit & payment tracking
 - Business reports
 - WhatsApp reminders
-- Multi-language support
 - Firebase OTP authentication
-- Offline-first data storage using Room Database
+- Multi-language support
+- Offline-first local storage
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-## 🔐 Authentication System
-- Secure Login System
-- Account Registration
-- Firebase Phone OTP Verification
-- Forgot Password Flow
-- Persistent Login Sessions
-- Password Validation Rules
-- Password Reset with OTP
+## 🔐 Authentication
+- Login using phone number & password
+- Create account with validations
+- Forgot password using Firebase OTP
+- Secure password reset flow
+- Persistent login sessions
 
 ---
 
 ## 👥 Customer Management
-- Add New Customers
-- Customer Phone Number Support
-- Search Customers
-- Customer Ledger History
-- Outstanding Balance Tracking
-- Customer Profile View
-- Swipe/Delete Support
+- Add customers
+- Search customers
+- View customer ledger
+- Track outstanding balances
+- Transaction history management
 
 ---
 
 ## 💰 Transaction Management
 - Add Credit (Udari)
 - Add Payment Received
-- Transaction Notes
-- Timestamp Tracking
-- Real-time Balance Calculation
-- Color-coded Transaction Types
+- Transaction notes support
+- Real-time balance updates
+- Color-coded transaction types
 
 ---
 
-## 📊 Business Reports
+## 📊 Reports & Analytics
 - Daily Reports
 - Weekly Reports
 - Monthly Reports
 - Yearly Reports
-- Total Sales Overview
-- Credit & Payment Analytics
-- Net Cash Summary
+- Sales & payment summaries
 
 ---
 
 ## 🌍 Multi-Language Support
 Supported Languages:
 - English
-- ಕನ್ನಡ (Kannada)
-- हिन्दी (Hindi)
-- தமிழ் (Tamil)
-- తెలుగు (Telugu)
-- मराठी (Marathi)
-
-Features:
-- Dynamic Language Switching
-- Persistent Language Preference
-- Fully Externalized Strings
-- Locale-based UI
+- Kannada
+- Hindi
+- Tamil
+- Telugu
+- Marathi
 
 ---
 
-## 📲 WhatsApp Reminder System
-- Send Pending Due Reminders
-- Auto-formatted Reminder Messages
-- Direct WhatsApp Integration
-- Customer Due Notifications
+## 📲 WhatsApp Reminder
+- Send due reminders directly through WhatsApp
+- Auto-generated payment reminder messages
 
 ---
 
-## 👤 Vendor Profile Management
-- Edit Vendor Details
-- Shop Name Management
-- Market/Santhe Name
-- Profile Photo Upload
-- Password Change Feature
-- Language Preference
-
----
-
-## ⚡ Offline First Functionality
-- Works Without Internet
-- Local Database Storage
-- Fast Performance
-- Lightweight Architecture
-- Data Persistence using Room Database
+## ⚡ Offline First
+- Room Database local storage
+- Works without internet
+- Fast and lightweight performance
 
 ---
 
 # 📱 Application Screenshots
 
 ## 🚀 Splash Screen
-Shows branding and application loading screen.
-
-![Splash Screen](screenshot/front.jpeg)
+![Splash](screenshot/front.jpeg)
 
 ---
 
 ## 🔐 Login Screen
-Vendor login using phone number and password.
-
-![Login Screen](screenshot/login.jpeg)
+![Login](screenshot/login.jpeg)
 
 ---
 
-## 📝 Create Account Screen
-New vendor registration with validations.
-
+## 📝 Create Account
 ![Create Account](screenshot/account.jpeg)
 
 ---
 
 ## 🏠 Home Dashboard
-Displays business summary and navigation.
-
-![Home Screen](screenshot/home.jpeg)
+![Home](screenshot/home.jpeg)
 
 ---
 
 ## 🌍 Language Selection
-Multi-language dropdown support.
-
-![Language Selection](screenshot/language.jpeg)
+![Language](screenshot/language.jpeg)
 
 ---
 
 ## 👥 Customer List
-Customer management dashboard.
-
-![Customer List](screenshot/customers.jpeg)
+![Customers](screenshot/customers.jpeg)
 
 ---
 
 ## ➕ Add Customer
-Add new customer with phone number.
-
-![Add Customer](screenshot/add customer.jpeg)
+![Add Customer](screenshot/add%20customer.jpeg)
 
 ---
 
 ## 📒 Customer Ledger
-Customer transaction history and balance.
-
 ![Customer Ledger](screenshot/customer.jpeg)
 
 ---
 
-## 💵 Add Payment / Credit
-Add udari or payment transaction.
-
-![Payment Entry](screenshot/payment.jpeg)
-
----
-
 ## 📊 Reports Dashboard
-Daily, Weekly, Monthly and Yearly business reports.
-
 ![Reports](screenshot/report.jpeg)
 
 ---
 
-## 👤 Vendor Profile
-Vendor details and settings page.
-
+## 👤 Profile Screen
 ![Profile](screenshot/profile.jpeg)
 
 ---
 
-## 🔁 Forgot Password
-Password reset using Firebase OTP.
-
-![Forgot Password](screenshot/forgot.jpeg)
-
----
-
-## 🔐 OTP Verification
-Firebase phone OTP verification screen.
-
-![OTP Screen](screenshot/otp.jpeg)
-
----
-
-## 📨 OTP SMS Message
-Firebase OTP SMS received.
-
-![OTP SMS](screenshot/otp message.jpeg)
-
----
-
-## 🔑 New Password Screen
-Reset and update password.
-
-![New Password](screenshot/new password.jpeg)
-
----
-
 ## 📲 WhatsApp Reminder
-Pending due reminder message.
-
 ![Reminder](screenshot/reminder.jpeg)
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ Architecture
 
-```text
-NammaSantheLedger
-│
-├── Authentication Module
-│   ├── Login
-│   ├── Registration
-│   ├── OTP Verification
-│   └── Password Reset
-│
-├── Customer Module
-│   ├── Add Customer
-│   ├── Search Customer
-│   ├── Customer Ledger
-│   └── Transaction History
-│
-├── Transaction Module
-│   ├── Credit Entry
-│   ├── Payment Entry
-│   └── Balance Calculation
-│
-├── Reports Module
-│   ├── Daily Reports
-│   ├── Weekly Reports
-│   ├── Monthly Reports
-│   └── Yearly Reports
-│
-├── Profile Module
-│   ├── Vendor Details
-│   ├── Language Settings
-│   └── Password Management
-│
-└── Database Layer
-    ├── Room Database
-    ├── DAO Layer
-    ├── Repository Layer
-    └── ViewModels
-```
-
----
-
-# 🧠 Application Architecture
-
-The application follows:
-
+The project follows:
 - MVVM Architecture
 - Repository Pattern
-- Offline-first Data Management
-- StateFlow State Management
+- Offline-first Architecture
 - Jetpack Compose UI Architecture
 
 ---
@@ -283,16 +155,14 @@ The application follows:
 | Category | Technology |
 |---|---|
 | Language | Kotlin |
-| UI Toolkit | Jetpack Compose |
-| Design System | Material 3 |
+| UI | Jetpack Compose |
+| Design | Material 3 |
 | Database | Room Database |
-| Authentication | Firebase Phone OTP |
+| Authentication | Firebase OTP |
 | Architecture | MVVM |
 | Navigation | Compose Navigation |
 | State Management | ViewModel + StateFlow |
 | Build System | Gradle Kotlin DSL |
-| IDE | Android Studio |
-| Version Control | Git & GitHub |
 
 ---
 
@@ -306,7 +176,6 @@ Firebase Authentication
 Navigation Compose
 Lifecycle ViewModel
 Kotlin Coroutines
-StateFlow
 ```
 
 ---
@@ -323,7 +192,6 @@ StateFlow
 | shopName | Text |
 | marketName | Text |
 | password | Text |
-| profileImage | Text |
 
 ---
 
@@ -351,15 +219,12 @@ StateFlow
 
 ---
 
-# ⚙️ Setup & Run Instructions
+# ⚙️ Setup & Run
 
-## 📌 Prerequisites
-
-Install:
+## 📌 Requirements
 - Android Studio Hedgehog or later
 - JDK 17
 - Android SDK 34
-- Git
 
 ---
 
@@ -371,47 +236,13 @@ git clone https://github.com/raghavpk/NammaSantheLedger.git
 
 ---
 
-# 📂 Open Project
-
-1. Open Android Studio
-2. Click "Open"
-3. Select project folder
-4. Wait for Gradle Sync
-
----
-
 # 🔥 Firebase Setup
 
-## Step 1
-Create Firebase Project:
-- https://console.firebase.google.com
+1. Create Firebase Project
+2. Enable Phone Authentication
+3. Download `google-services.json`
+4. Place file inside:
 
----
-
-## Step 2
-Add Android App:
-```text
-Package Name:
-com.namma.santheledger
-```
-
----
-
-## Step 3
-Enable:
-```text
-Firebase Authentication → Phone Authentication
-```
-
----
-
-## Step 4
-Download:
-```text
-google-services.json
-```
-
-Place inside:
 ```text
 app/
 ```
@@ -420,13 +251,13 @@ app/
 
 # ▶️ Run Application
 
-Connect device/emulator and click:
+Open project in Android Studio and click:
 
 ```text
 Run ▶️
 ```
 
-OR use terminal:
+OR
 
 ```bash
 ./gradlew assembleDebug
@@ -436,11 +267,15 @@ OR use terminal:
 
 # 📦 APK Download
 
-[Download APK](app-release.apk)
+Download APK from repository files:
+
+```text
+app-release.apk
+```
 
 ---
 
-# 📂 Repository Structure
+# 📂 Project Structure
 
 ```text
 NammaSantheLedger/
@@ -451,68 +286,50 @@ NammaSantheLedger/
 ├── app-release.apk
 ├── build.gradle.kts
 ├── settings.gradle.kts
-├── gradle.properties
 └── .gitignore
 ```
 
 ---
 
-# 🌟 Highlights of the Project
+# 🌟 Project Highlights
 
-✅ Offline-first Architecture  
-✅ Real-world Problem Solving  
+✅ Offline-first Application  
 ✅ Firebase OTP Authentication  
 ✅ Multi-language Support  
 ✅ WhatsApp Integration  
-✅ Room Database Usage  
-✅ Modern Jetpack Compose UI  
-✅ Proper MVVM Architecture  
-✅ Reports & Analytics  
+✅ Room Database  
+✅ Jetpack Compose UI  
+✅ MVVM Architecture  
+✅ Business Reports  
 ✅ Complete CRUD Operations  
-✅ Responsive UI Design  
-✅ GitHub Documentation  
-✅ APK Included  
-✅ Professional Repository Structure  
+✅ Professional GitHub Repository  
 
 ---
 
 # 📈 Evaluation Criteria Coverage
 
-| Evaluation Area | Status |
+| Evaluation Criteria | Status |
 |---|---|
-| Repository Structure | ✅ Completed |
-| Source Code Quality | ✅ Completed |
-| Documentation & README | ✅ Completed |
-| Build Readiness | ✅ Completed |
-| Commit History | ✅ Completed |
-| Project Completeness | ✅ Completed |
-| Originality & Implementation | ✅ Completed |
-| Screenshots & Demo | ✅ Completed |
-| APK Availability | ✅ Completed |
-| Architecture Explanation | ✅ Completed |
+| Repository Structure | ✅ |
+| Source Code Quality | ✅ |
+| Documentation & README | ✅ |
+| Build Readiness | ✅ |
+| Commit History | ✅ |
+| Project Completeness | ✅ |
+| Originality & Implementation | ✅ |
+| Screenshots Included | ✅ |
+| APK Included | ✅ |
 
 ---
 
-# 🔮 Future Improvements
+# 🔮 Future Enhancements
 
-- Cloud Sync Support
-- Online Backup
-- PDF Invoice Export
-- Expense Tracking
+- Cloud Backup
 - Dark Mode
-- Barcode Scanner
-- UPI Payment Integration
+- PDF Export
+- Expense Tracking
+- UPI Integration
 - Multi-device Sync
-- Admin Analytics Dashboard
-
----
-
-# ⚠️ Important Notes
-
-- App is optimized for Android devices.
-- Firebase OTP requires internet connection.
-- Main business data works offline.
-- Data is stored locally using Room Database.
 
 ---
 
@@ -520,13 +337,13 @@ NammaSantheLedger/
 
 ## Raghavendra PK
 
-Built with ❤️ for Indian Santhe Vendors and Small Businesses.
+Built with ❤️ for Indian Santhe Vendors.
 
 ---
 
 # 📄 License
 
-This project is created for educational and internship evaluation purposes.
+This project is developed for educational and internship evaluation purposes.
 
 ---
 
@@ -535,9 +352,3 @@ This project is created for educational and internship evaluation purposes.
 Repository Link:
 
 https://github.com/raghavpk/NammaSantheLedger
-
----
-
-# 🙏 Thank You
-
-Thank you for reviewing the project 🚀
