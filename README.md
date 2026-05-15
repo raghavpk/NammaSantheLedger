@@ -111,7 +111,7 @@ Supported Languages:
 ---
 
 ## 👥 Customer List
-![Customers](screenshot/customers.jpeg)
+![Customer List](screenshot/customers.jpeg)
 
 ---
 
